@@ -14,10 +14,26 @@
  *= require_self
  */
 
-
+html {
+    display: flex;
+    flex-direction: column;
+    background-image: url('http://www.esferasoft.com/images/ruby.png');
+    background-size: stretch;
+}
  body {
      display: flex;
      justify-content: center;
+     min-height: 600px;
+     margin: 0 auto;
+     background-color: rgb(0, 202, 252);
+ }
+
+ nav {
+     display: block;
+     background-color: rgb(0, 202, 252);
+ }
+
+ main {
  }
 
  h1 {
